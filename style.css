@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ff89cc;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #000;
+}
+
+.navbar {
+    background-color: #baffc9;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 600 12px 'Source Code Pro', sans-serif;
+}
+
+.main-container {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ff85d2;
+}
+
+.title {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    color: #ffe135;
+    font: italic 700 71px/118px 'Neue Regrade', sans-serif;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+.avatar {
+    border-radius: 50%;
+    margin: 0 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.subtitle {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #130e0a;
+    margin-top: 42px;
+    font: 600 20px 'Lexend', sans-serif;
+    text-shadow: -1px 1px 0px #130e0a;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #130e0a;
+}
+
+.subtitle span {
+    display: block;
+    margin: 10px 0;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 32px;
+    width: 100%;
+}
+
+.project {
+    background-color: #ebff00;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 35px;
+    font-size: 1.2em;
+    border: 3px solid #000;
+    box-shadow: -7px 7px 0px 0px #1e1e1e;
+    transition: all 0.2s;
+    width: 200px;
+    text-align: center;
+    font-family: 'Source Code Pro', sans-serif;
+    text-transform: uppercase;
+}
+
+.project:hover {
+    box-shadow: -5px 5px 0px 0px #1e1e1e;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    gap: 20px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    filter: drop-shadow(3px 4px 0px #0e2624);
+    border: 1px solid #133834;
+}
+
+.footer {
+    background-color: #baffc9;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 600 12px 'Source Code Pro', sans-serif;
+}
